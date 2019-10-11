@@ -46,6 +46,10 @@ li {
     display: flex;
     justify-content: center;
 }
+.nav-link {
+    font-size: 20px;
+    padding: 17px;
+}
 
 
 
@@ -55,36 +59,31 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .titular-name {
     font-family: 'Mansalva', cursive;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     margin: 5px;
 }
 .emily-image {
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 300px;
     background-color: black;
     border: 10px outset black;
-    /* turning photo */
-    /* -webkit-transform:rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg); */
 }
 .introduction {
     margin: auto;
     font-family: 'Montserrat', sans-serif;
-    width: 65%;
+    width: 70%;
     text-align: center;
+    font-size: 20px;
 }
 
 
@@ -96,12 +95,18 @@ h1 {
     align-items: center;
     margin-bottom: 30px;
 }
+.portfolio-project {
+    width: 80%;
+}
 .project-link {
+    font-size: 20px;
     margin-top: 30px;
     border: 3px solid #ffb3b3;
     border-radius: 20px;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    /* width: 80%; */
 }
 
 
@@ -119,9 +124,10 @@ h1 {
     align-content: center;
     align-items: center;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 27px;
     font-family: 'Cinzel', serif;
     display: flex;
     justify-content: center;
@@ -135,6 +141,7 @@ h2 {
     margin-top: 25px;
     margin-bottom: 25px;
     padding-bottom: 10px;
+    font-size: 27px;
 }
 .personal {
     margin-bottom: 50px;
@@ -146,7 +153,7 @@ h2 {
     margin-bottom: 30px;
 }
 .label {
-    font-size: 15px;
+    font-size: 25px;
     color: black;
 }
 .form-class {
@@ -165,7 +172,10 @@ legend {
 }
 .label-answer {
     font-family: 'Mansalva', cursive;
-    font-size: 15px;
+    font-size: 25px;
+}
+label {
+    font-size: 20px;
 }
 .input {
     border: 1px solid black;
@@ -183,6 +193,7 @@ legend {
 }
 .submit {
     border-bottom: 1px ridge black;
+    font-size: 20px;
 }
 .submit-button {
     display: flex;
@@ -201,7 +212,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #ffb3b3;
-    padding-top: 15px;
+    padding: 25px;
     font-family: 'Playfair Display', serif;
 }
 footer div {
@@ -211,7 +222,10 @@ footer div {
     font-family: 'Mansalva', cursive;
     display: flex;
     justify-content: center;
-    font-size: 17px
+    font-size: 20px
+}
+.last-updated {
+    font-size: 17px;
 }
 
 
@@ -251,6 +265,7 @@ footer div {
     a.nav-link {
         font-size: 25px;
         margin: 10px;
+        padding: 0px;
     }
 
 
@@ -266,12 +281,12 @@ footer div {
 
     }
     .emily-image {
-        height: 300px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .introduction {
-        font-size: 20px;
+        font-size: 30px;
     }
     
 
@@ -320,7 +335,7 @@ footer div {
         margin: 50px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 35px;
         display: flex;
         justify-content: center;
     }
@@ -329,15 +344,16 @@ footer div {
         margin-top: 23px;
         margin-bottom: 30px;
         width: 283px;
+        font-size: 35px;
     }
     label {
-        font-size: 20px;
+        font-size: 30px;
     }
     .label {
-        font-size: 20px;
+        font-size: 30px;
     }
     .label-answer {
-        font-size: 20px;
+        font-size: 30px;
     }
     .input {
         width: 300px;
@@ -364,7 +380,10 @@ footer div {
         height: 50px;
     }
     .footer-name {
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Mansalva', cursive;
+    }
+    .last-updated {
+        font-size: 30px;
     }
 };
