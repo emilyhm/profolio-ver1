@@ -65,6 +65,7 @@ h1 {
     margin: 5px;
 }
 .emily-image {
+    transform: rotate(270deg);
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -73,7 +74,6 @@ h1 {
     height: 150px;
     background-color: black;
     border: 5px outset black;
-    transform: rotate(270deg)
 }
 .introduction {
     margin: auto;
