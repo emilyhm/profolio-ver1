@@ -1,0 +1,277 @@
+.fonts-for-now {
+font-family: 'Mansalva', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Cinzel', serif;
+}
+
+* {
+    box-sizing: border-box; 
+  }
+.main {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* nav bar */
+.menu-button {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-family: 'Mansalva', cursive;
+    margin-bottom: 10px;
+}
+
+.menu-icon {
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb3b3;
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    display: flex;
+    justify-content: center;
+}
+
+/* about */
+h1 {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.titular-name {
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.emily-image {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+    border: 5px outset black;
+    transform: rotate(270deg)
+}
+.introduction {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 65%;
+    text-align: center;
+}
+/* portfolio */
+
+/* contact */
+.main-contact {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.contact-h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+}
+.personal {
+    margin-bottom: 50px;
+}
+.personal-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.label {
+    font-size: 15px;
+    color: black;
+}
+.form-class {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+legend {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.label-answer {
+    font-family: 'Mansalva', cursive;
+    font-size: 15px;
+}
+.input {
+    border: 1px solid black;
+}
+.social {
+    display: flex;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 70px;
+}
+.social a {
+    border: 3px solid #ffb3b3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffb3b3;
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+}
+footer div {
+    height: 30px;
+}
+
+.footer-name {
+    font-family: 'Mansalva', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 17px
+}
+
+@media screen and (min-width: 800px) {
+    /* nav bar */
+    .whole-menu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-button {
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 20%;
+    }
+    .menu-icon {
+        width: 25px;
+        height: 2px;
+        margin: 7px 0;
+        border-radius: 10px;
+    }
+    .navbar-nav {
+        width: 700px;
+        margin-left: 50%;
+        margin-bottom: 30px;
+        border-radius: 7px;
+        display: flex;
+    }
+    a.nav-link {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    /* about */
+    h1 {
+        font-size: 50px;
+        display: flex;
+    }
+
+    .titular-name {
+        font-size: 35px;
+        font-family: 'Mansalva', cursive;
+
+    }
+    
+    .emily-image {
+        height: 300px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .introduction {
+        font-size: 20px;
+    }
+
+    /* contact */
+    .main-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .contact-h1 {
+        font-size: 50px;
+        margin: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .label {
+        font-size: 20px;
+    }
+    .label-answer {
+        font-size: 20px;
+    }
+    .social a {
+        font-size: 30px;
+    }
+    .personal-contact {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+        font-size: 20px;
+        /* align-items: center; */
+    }
+    footer div {
+        height: 50px;
+    }
+    .footer-name {
+        font-size: 20px;
+    }
+};
