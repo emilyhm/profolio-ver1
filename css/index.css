@@ -1,9 +1,11 @@
-.fonts-for-now {
+/* fonts used:
 font-family: 'Mansalva', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif;
-font-family: 'Cinzel', serif;
-}
+font-family: 'Cinzel', serif; 
+*/
+
+
 
 * {
     box-sizing: border-box; 
@@ -13,7 +15,9 @@ font-family: 'Cinzel', serif;
     margin-bottom: 30px;
 }
 
-/* nav bar */
+
+
+/* -----NAV BAR MOBILE----- */
 .menu-button {
     background-color: black;
     color: white;
@@ -23,7 +27,6 @@ font-family: 'Cinzel', serif;
     font-family: 'Mansalva', cursive;
     margin-bottom: 10px;
 }
-
 .menu-icon {
     width: 10px;
     height: 2px;
@@ -31,7 +34,6 @@ font-family: 'Cinzel', serif;
     margin: 5px 0;
     border-radius: 3px;
 }
-
 ul {
     list-style-type: none;
     padding: 10px;
@@ -45,7 +47,9 @@ li {
     justify-content: center;
 }
 
-/* about */
+
+
+/* -----ABOUT MOBILE----- */
 h1 {
     font-family: 'Cinzel', serif;
     display: flex;
@@ -53,7 +57,6 @@ h1 {
     margin: 0px;
     font-size: 30px;
 }
-
 .titular-name {
     font-family: 'Mansalva', cursive;
     font-size: 20px;
@@ -61,7 +64,6 @@ h1 {
     justify-content: center;
     margin: 5px;
 }
-
 .emily-image {
     margin: auto;
     margin-top: 50px;
@@ -79,7 +81,10 @@ h1 {
     width: 65%;
     text-align: center;
 }
-/* portfolio */
+
+
+
+/* -----PORTFOLIO MOBILE----- */
 .portfolio-main {
     display: flex;
     flex-direction: column;
@@ -87,7 +92,6 @@ h1 {
     margin-bottom: 30px;
 }
 .project-link {
-    /* background-color: red; */
     margin-top: 30px;
     border: 3px solid #ffb3b3;
     border-radius: 20px;
@@ -95,9 +99,10 @@ h1 {
     text-align: center;
 }
 
-/* contact */
+
+
+/* -----CONTACT MOBILE----- */
 .main-contact {
-    /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +121,16 @@ h2 {
     display: flex;
     justify-content: center;
 }
+.my-info {
+    border-bottom: 1px solid gainsboro;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
 .personal {
     margin-bottom: 50px;
 }
@@ -130,7 +145,6 @@ h2 {
     color: black;
 }
 .form-class {
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
 }
@@ -162,9 +176,21 @@ legend {
     border-radius: 20px;
     padding: 20px;
 }
+.submit {
+    border-bottom: 1px ridge black;
+}
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+.has-error input[type="text"], .has-error input[type="email"], .has-error select {
+    border: 1px solid #a94442;
+}
 
 
-/* footer */
+
+
+/* -----FOOTER MOBILE----- */
 footer {
     display: flex;
     flex-direction: column;
@@ -176,7 +202,6 @@ footer {
 footer div {
     height: 30px;
 }
-
 .footer-name {
     font-family: 'Mansalva', cursive;
     display: flex;
@@ -184,8 +209,15 @@ footer div {
     font-size: 17px
 }
 
+
+
+
+
+/* -----FOR DESKTOPS AND WIDER SCREENS----- */
 @media screen and (min-width: 800px) {
-    /* nav bar */
+
+
+    /* -----NAV BAR----- */
     .whole-menu {
         width: 50%;
         display: flex;
@@ -216,29 +248,30 @@ footer div {
         margin: 10px;
     }
 
-    /* about */
+
+
+    /* -----ABOUT----- */
     h1 {
         font-size: 50px;
         display: flex;
     }
-
     .titular-name {
         font-size: 35px;
         font-family: 'Mansalva', cursive;
 
     }
-    
     .emily-image {
         height: 300px;
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
     .introduction {
         font-size: 20px;
     }
     
-    /* portfolio */
+
+
+    /* -----PORTFOLIO----- */
     .portfolio-project {
         display: flex;
         align-items: baseline;
@@ -262,14 +295,15 @@ footer div {
 
     }
     .project-link {
-        /* background-color: red; */
         margin-top: 30px;
         border: 3px solid #ffb3b3;
         border-radius: 20px;
         padding: 30px;
     }
 
-    /* contact */
+
+
+    /* -----CONTACT----- */
     .main-contact {
         display: flex;
         flex-direction: row;
@@ -285,14 +319,23 @@ footer div {
         display: flex;
         justify-content: center;
     }
-    p {
-        font-family: 'Montserrat', sans-serif;
+    .my-info {
+        margin: auto;
+        margin-top: 23px;
+        margin-bottom: 30px;
+        width: 283px;
+    }
+    label {
+        font-size: 20px;
     }
     .label {
         font-size: 20px;
     }
     .label-answer {
         font-size: 20px;
+    }
+    .input {
+        width: 300px;
     }
     .social a {
         font-size: 30px;
@@ -304,19 +347,19 @@ footer div {
 
 
 
-    /* footer */
+    /* -----FOOTER----- */
     footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin-bottom: 0px;
         font-size: 20px;
-        /* align-items: center; */
     }
     footer div {
         height: 50px;
     }
     .footer-name {
         font-size: 20px;
+        font-family: 'Mansalva', cursive;
     }
 };

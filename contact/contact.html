@@ -50,7 +50,7 @@
     
     <div class="main-contact">
         <div class="personal">
-            <h2>My Information</h2>
+            <h2 class="my-info">My Information</h2>
             <div class="personal-contact">
                 <p class="label">First Name:</p>
                 <p class="label-answer">Emily</p>
@@ -80,7 +80,9 @@
 
 
         
-        <form class="form-class" name="contact" method="POST" data-netlify="true">
+        <form class="form-class" name="contact" method="POST" role="form"  data-netlify="true">
+
+                <!-- data-toggle="validator"  -->
             <fieldset> 
                 <legend>
                     <h2>Send Me a Message!</h2>
@@ -88,25 +90,29 @@
                 <div class="contact">
                     <label for="first name">First Name:</label> 
                     <br>
-                    <input class="input" type="text" name="first name"> 
+                    <input class="input form-control" type="text" name="first name" required="required" data-error="Please enter your first name."> 
+                    <div class="help-block with-error"></div>
                 </div>
     
                 <div class="contact">
                     <label for="last name">Last Name:</label> 
                     <br>
-                    <input class="input" type="text" name="last name">
+                    <input class="input form-control" type="text" name="last name" required>
                 </div>
     
                 <div class="contact">
                     <label for="email">Email:</label> 
                     <br>
-                    <input class="input" type="email" name="email">
+                    <input class="input form-control" type="email" name="email" required>
                 </div>
     
                 <div class="contact">
                     <label for="first name">Anything you want to tell me?</label> 
                     <br>
-                    <textarea class="input" name="comments" rows="10" cols="30">Place Any Comments Here!</textarea>
+                    <textarea class="input form-control" name="comments" rows="10" cols="30" required></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" class="submit">Submit</button>
                 </div>
             </fieldset>
         </form>
@@ -126,6 +132,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+<!-- this might be irrelevant -->
+
 
 </body>
 </html>
