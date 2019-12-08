@@ -105,7 +105,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .portfolio-project {
     width: 80%;
@@ -221,11 +221,13 @@ label {
 /* -----FOOTER MOBILE----- */
 footer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: #ffb3b3;
     padding: 25px;
     font-family: 'Playfair Display', serif;
+    position: fixed;
+    bottom: 0px;
 }
 footer div {
     height: 30px;
