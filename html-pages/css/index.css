@@ -118,7 +118,6 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    /* width: 80%; */
 }
 
 
@@ -128,7 +127,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
 }
 .contact-h1 {
     display: flex;
@@ -317,8 +316,6 @@ footer div {
     .portfolio-project {
         display: flex;
         align-items: baseline;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         margin-bottom: 30px;
     }
@@ -328,13 +325,14 @@ footer div {
         justify-content: space-around;
         flex-direction: column;
         margin-right: 100px;
+        width: 50%;
     }
     .column2 {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-
+        width: 50%;
     }
     .project-link {
         margin-top: 30px;
